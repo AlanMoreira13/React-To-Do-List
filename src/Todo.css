@@ -1,0 +1,103 @@
+.container {
+  margin: auto;
+  width: 600px;
+}
+
+.container h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.done {
+  text-decoration: line-through;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.card {
+  box-shadow: 0 2px 7px 3px rgba(125, 17, 227, 0.563);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addButton {
+  font-size: 40px;
+  color: rgba(119, 26, 206, 0.738);
+  cursor: pointer;
+}
+
+.btn-checked {
+  margin-right: 15px;
+  color: greenyellow;
+}
+
+.btn-unchecked {
+  margin-right: 15px;
+  color: violet
+}
+
+.btn-trash {
+  color: brown;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.39);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+}
+
+.cardModal {
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.hide {
+  display: none;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form input {
+  width: 300px;
+  border: none;
+  padding: 12px;
+  border-radius:10px 0 0 10px  ;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form button {
+  padding: 10px;
+  border-radius: 0 10px  10px 0;
+  border: none;
+  background-color: violet;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
