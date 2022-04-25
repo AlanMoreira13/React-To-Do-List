@@ -1,1 +1,4 @@
-Meu primeiro projeto utilizando React.
+##
+Meu primeiro projeto utilizando React. <br>
+##
+✔ React
